@@ -35,6 +35,7 @@ function App() {
             setRes((prev) => prev.concat("RICK ROLLED"));
           }}
           onTime={(e) => {
+            console.log("#### onTime", e);
             const { position, duration } = e;
             let progressClone = progress;
             if (position > duration / 4 && progressClone < 0.25) {
