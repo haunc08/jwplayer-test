@@ -1,6 +1,6 @@
 import "./App.css";
 import ReactJWPlayer from "react-jw-player";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const playlist = [
   {
